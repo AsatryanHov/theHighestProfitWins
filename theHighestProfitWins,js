@@ -1,0 +1,9 @@
+function minMax(arr){
+	let sortedArr = arr.sort(function(a, b){
+		return a - b;
+	});
+	
+	let resault = [sortedArr[0], sortedArr[sortedArr.length - 1]];
+	
+  return resault
+}
